@@ -1,0 +1,44 @@
+.darkHeader{
+    color: white;
+    background-color: #2B3844;
+}
+
+.lightHeader{
+    color: #111517;
+    background-color: white;
+}
+header {
+    display: flex;
+    justify-content: center;
+    height: 80px;
+    padding: 23px 0px 24px 0px;
+    font-size: 24px;
+    font-family: Nunito Sans;
+    font-weight: 800;
+    line-height: 32.74px;
+    width: 100vw;
+    nav{
+        width: 80vw;
+        display: flex;
+        justify-content: space-between;
+        span{
+            cursor:pointer;
+            a{
+               a:visited{
+                text-decoration: none;
+               }
+            }
+        }
+    }
+}
+
+@media (max-width:464px) {
+    header{
+        font-size: 14px;
+        nav{
+            width: 100vw;
+            justify-content: space-around;
+        }
+    }
+    
+}

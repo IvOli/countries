@@ -1,0 +1,35 @@
+
+a{
+    text-decoration: none;
+}
+.card {
+    width: 264px;
+    height: 336px;
+    margin-top: 55px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    overflow: hidden;
+    &:hover{
+        background-color: gray !important;
+    }
+    h3{
+        font-size: 18px;
+        font-weight: 800;
+        margin-top: 28px;
+        margin-left: 24px;
+        margin-bottom: 16px;
+    }
+    p{
+        font-size: 14px;
+        font-weight: 300;
+        margin-left: 24px;
+        margin-bottom: 8px;
+    }
+    img{
+        width: 264px;
+        height: 160px;
+        object-fit:cover;
+        
+    }
+    
+}
