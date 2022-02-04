@@ -36,7 +36,7 @@ export const Country = () => {
     } = country;
     return (
         <div className={`${theme}`}>
-            <div className='container'>
+            <div className='container containercountry'>
             <button
                 className={theme === "dark" ? 'darkHeader': 'lightHeader'}
                 onClick={ handleReturn }
@@ -55,7 +55,7 @@ export const Country = () => {
                         <div className='data'>
                             <div>
                                 <p><b>Native Name:</b> {nativeName}</p>
-                                <p><b>Population:</b> {population}</p>
+                                <p><b>Population:</b> {population.toLocaleString()}</p>
                                 <p><b>Region:</b> {region}</p>
                                 <p><b>Sub Region:</b> {subregion}</p>
                                 {capital && <p><b>Capital:</b> {capital}</p>}

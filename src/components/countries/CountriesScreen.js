@@ -52,7 +52,7 @@ export const CountriesScreen = () => {
                         key={c.name}
                         flag={c.flag}
                         name={c.name}
-                        population={parseInt(c.population)}
+                        population={c.population.toLocaleString()}
                         region={c.region}
                         capital={c.capital}
                         
@@ -62,7 +62,7 @@ export const CountriesScreen = () => {
                         key={c.name}
                         flag={c.flag}
                         name={c.name}
-                        population={parseInt(c.population)}
+                        population={c.population.toLocaleString()}
                         region={c.region}
                         capital={c.capital}
                         
@@ -72,7 +72,7 @@ export const CountriesScreen = () => {
                         key={c.name}
                         flag={c.flag}
                         name={c.name}
-                        population={parseInt(c.population)}
+                        population={c.population.toLocaleString()}
                         region={c.region}
                         capital={c.capital}
                     />)}

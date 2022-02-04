@@ -40,7 +40,7 @@ body{
                 border: none;
                 border-radius: 5px;
                 padding-left: 55px; 
-                width: 480px;
+                width: 50vw;
                 height: 56px;
                 
             }
@@ -94,6 +94,9 @@ body{
         form{
             align-self: start;
             width: 80vw;
+            input{
+                width: 80vw;
+            }
         }
         .selector{
             align-self: flex-start;
@@ -113,6 +116,9 @@ body{
         form{
             align-self: start;
             width: 80vw;
+            input{
+                width: 80vw !important;
+            }
         }
         .selector{
             align-self: flex-start;
